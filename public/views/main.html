@@ -1,0 +1,40 @@
+<div class="container" ng-init="getAllContacts();">
+	<p style="color:green">{{success_msg}}</p>
+	<p style="color:red">{{error_msg}}</p>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Number</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<input type="text" class="form-control" ng-model="add_contact.contact_name">
+				</td>
+				<td>
+					<input type="text" class="form-control" ng-model="add_contact.contact_email">
+				</td>
+				<td>
+					<input type="text" class="form-control" ng-model="add_contact.contact_number">
+				</td>
+				<td>
+					<button type="button" class="btn btn-primary" ng-click="addContact();">ADD</button>
+				</td>
+			</tr>
+			<tr ng-repeat="contact in contacts">
+				<td>{{contact.contact_name}}</td>
+				<td>{{contact.contact_email}}</td>
+				<td>{{contact.contact_number}}</td>
+				<td>
+					<button type="button" class="btn btn-warning" ng-click="addContact();">EDIT</button>
+					<button type="button" class="btn btn-danger" ng-click="addContact();">DELETE</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>

@@ -1,0 +1,22 @@
+<div class="container">
+
+  <button type="button" class="btn btn-default" ng-click="myplayer();">OPEN PLAYER</button>
+
+</div>
+<script type="text/ng-template" id="myModalContent.html">
+  <div class="modal-header">
+    <h3 class="modal-title" id="modal-title">I'm a modal!</h3>
+  </div>
+  <div class="modal-body" id="modal-body">
+    <div class="container">
+      <div id="waveForm"></div>
+      <div id="timeLine"></div>
+      <input type="button" data-action="play" value="play"/>
+      <input type="button" data-action="stop" value="stop"/>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="pc.ok()">OK</button>
+    <button class="btn btn-warning" type="button" ng-click="pc.cancel()">Cancel</button>
+  </div>
+</script>
