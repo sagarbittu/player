@@ -1,0 +1,13 @@
+https://wavesurfer-js.org/
+https://wavesurfer-js.org/doc/
+http://wavesurfer-js.org/examples/
+https://www.bountysource.com/issues/47381403-feature-soundtouch-js-filter-to-preserve-pitch-when-changing-tempo
+https://wavesurfer-js.org/projects/
+http://kernow.me/loopslicer/
+http://kernow.me/loopslicer/js/b3.js
+https://uduk.org/osem/
+https://uduk.org/osem/js/playback.js?ok
+https://github.com/katspaugh/wavesurfer.js/issues/402
+https://wilsonlmh.github.io/fiveLoadSub/
+https://wavesurfer-js.org/v2/upgrading.html
+https://wavesurfer-js.org/plugins/playlist.html
